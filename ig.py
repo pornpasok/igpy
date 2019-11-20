@@ -1,4 +1,3 @@
-
 import subprocess
 import json
 import sys
@@ -63,9 +62,5 @@ for i in range(total):
 		location_name = data_user['entry_data']['PostPage'][0]['graphql']['shortcode_media']['location']['name']
 
 	print(username+" : "+location_name+" : "+profile_pic_url)
-
-
-		
-
 
 
